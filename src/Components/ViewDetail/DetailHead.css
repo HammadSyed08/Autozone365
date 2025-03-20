@@ -1,0 +1,117 @@
+/* --------> Detail Head ------->*/
+.detail_head {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.back_arrow {
+  background-color: #F2F4F9;
+  width: 46px;
+  height: 41px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+
+.head_contain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tick_or_cross_img {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.tick_or_cross_img span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #E3E3E3;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+
+.btns button {
+  background-color: #DFF4E2;
+  color: #1DB936;
+  border-color: #1DB936;
+}
+
+.btns button:active {
+  background-color: #1DB936;
+  color: #fff;
+}
+
+.Blocked button {
+  background-color: #FFECEC;
+  color: #FC1919;
+  border-color: #FC1919;
+}
+.Blocked button:active{
+  background-color: #FC1919;
+  color: #fff;
+}
+
+.button_or_Search {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  width: 60%;
+}
+
+.Search_detail {
+  background-color: #F2F4F9;
+  width: 100%;
+  padding: 10px;
+  border-radius: 19px;
+}
+
+.Search_detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ---------> Car Info --------> */
+.CarInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+}
+
+.car_detailed {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 450px;
+}
+
+.car_description {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+
+}
+
+.car_description p {
+  color: #979797;
+  font-size: 15px;
+}
+
+/* --------> Responsive -----------> */

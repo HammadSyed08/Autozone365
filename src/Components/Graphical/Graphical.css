@@ -1,0 +1,24 @@
+/* -------> Graphical View -------> */
+.Graphical_view {
+  padding: 5px;
+  width: 100%;
+}
+.Graph_chart {
+  padding: 10px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Graph_chart .Btn_row {
+  justify-content: end;
+  width: 100%;
+}
+@media (max-width: 468px) {
+  .Graph_chart{
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

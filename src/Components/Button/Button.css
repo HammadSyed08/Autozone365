@@ -1,0 +1,38 @@
+/* -------> Active or InActive Btn ---------> */
+.Logout_btn button {
+  cursor: pointer;
+  width: 100px;
+  padding: 5px;
+  color: #1CA2D7;
+  font-weight: 500;
+  border-radius: 3px;
+  border: 1px solid #000;
+  background-color: #fff;
+}
+
+.InActive_btn button {
+  cursor: pointer;
+  background-color: #F2F4F9;
+  color: #1CA2D7;
+  height: 26px;
+  width: 62px;
+  font-size: 12px;
+  border-radius: 8px;
+  border: 1px solid #1CA2D7;
+}
+
+.Active_btn button {
+  background-color: #1CA2D7;
+  color: #F2F4F9;
+}
+
+.Active_btn button:active {
+  background-color: #1CA2D7;
+  color: #F2F4F9;
+}
+
+.Blocked_btn button {
+  border: 1px solid #FC1919;
+  background-color: #FFECEC;
+  color: #FC1919;
+}

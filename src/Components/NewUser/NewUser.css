@@ -1,0 +1,70 @@
+/* -----> New User ------->  */
+.NewUserRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.NewUser,
+.Sales {
+  border-radius: 15px;
+  border: 1px solid #0000002d;
+}
+
+.NewUser .row_one {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.NewUser p,
+.Sales p {
+  font-weight: 600;
+}
+
+.row_Two {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading {
+  font-size: 29px;
+  border: 10px solid #D9D9D9;
+  border-bottom: 16px solid #3498db;
+  border-right: 14px solid #3498db;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .loading {
+    justify-content: flex-start;
+    width: 100%;
+    border-radius: 2px;
+    height: 20px;
+    border: 4px solid #c2cdd3;
+    font-size: 10px;
+  }
+
+  .loading_bar {
+    width: 60%;
+    background-color: #3498db;
+    text-align: end;
+  }
+
+  .NewUserRow {
+    flex-direction: column;
+  }
+
+  .NewUser {
+    width: 100%;
+  }
+}

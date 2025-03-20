@@ -1,0 +1,102 @@
+/* -------> LogIn page ------------> */
+.loginPara {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.loginPara,
+.Aside_bar {
+  background-color: #1CA2D7;
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  border-color: #000;
+  border-radius: 18px;
+  justify-content: center;
+}
+
+.loginPara p {
+  font-size: 14px;
+  width: 356px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.login_form {
+  width: 100%;
+  padding: 10px;
+  height: 100%;
+}
+
+.form_container {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-direction: column;
+}
+
+.form_container input {
+  border: 0px;
+  outline: 0px;
+  display: block;
+  width: 100%;
+  padding-block: 5px;
+  border-bottom: 1px solid black;
+}
+
+.login_img {
+  width: 102px;
+}
+
+.form_container form {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form_container ::placeholder {
+  color: #CCCCCC;
+}
+
+.form_container button {
+  margin-top: 30px;
+  padding: 12px;
+  color: #ffffff;
+  font-weight: 600;
+  background-color: #1CA2D7;
+  border: #1CA2D7;
+  border-radius: 13px;
+}
+
+@media (max-width: 768px) {
+
+  .form_container {
+    gap: 10px;
+  }
+
+  .loginPara p {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .login_img {
+    width: 32px;
+  }
+
+  .form_container form {
+    width: 100%;
+  }
+
+  .form_container ::placeholder {
+    color: #000;
+  }
+
+  .form_container button {
+    margin-top: 5px;
+  }
+
+}

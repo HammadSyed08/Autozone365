@@ -1,0 +1,86 @@
+/* -----> Aside Bar --------> */
+.Aside_bar {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.aside_container {
+  width: 100%;
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.aside_items,
+.aside_list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+}
+
+.aside_list {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.active img,
+.active p {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.aside_items .i {
+  width: 14px;
+}
+
+.aside_items p:hover {
+  font-weight: 600;
+}
+
+.aside_logout button {
+  width: 100%;
+  color: #1CA2D7;
+  padding: 5px;
+  border-radius: 8px;
+  border: 1px solid #0000;
+}
+
+.aside_items p {
+  font-size: 14px;
+}
+
+.Logout_btn {
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .aside_container {
+    min-height: 250px;
+  }
+
+  .aside_items {
+    font-size: 8px;
+  }
+
+  .aside_items p {
+    font-size: 8px;
+  }
+
+  .aside_items {
+    width: 12px;
+  }
+
+  .aside_logout button {
+    font-size: 10px;
+  }
+}
+@media (max-width: 468px) {
+  .Aside_bar{
+    width: 100%;
+  }
+}

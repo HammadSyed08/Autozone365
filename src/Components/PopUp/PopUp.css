@@ -1,0 +1,72 @@
+/* --------> Popup_container ----------> */
+.Logout_PopUp {
+  background-color: #d9d9d979;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Popup_container {
+  background-color: #fff;
+  display: flex;
+  gap: 15px;
+  width: 500px;
+  height: 250px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  border: 1px solid black;
+  border-radius: 12px;
+}
+
+.Logout_btn {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.Logout_Options {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.Logout_Options button {
+  width: 100px;
+  height: 40px;
+  font-size: 19px;
+  border-radius: 12px;
+}
+
+.Logout_Options button:hover,
+.Logout_Options button:active {
+  background-color: #1CA2D7;
+  color: #fff;
+}
+
+@media (max-width: 768px) {
+  .Popup_container {
+    gap: 1px;
+    width: 300px;
+    height: 200px;
+  }
+
+  .Logout_Options button {
+    width: 70px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 8px;
+  }
+  .Popup_container h1{
+    font-size: 23px;
+  }
+    .Popup_container p{
+      font-size: 10px;
+    }
+}

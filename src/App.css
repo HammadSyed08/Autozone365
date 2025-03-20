@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Metrophobic&display=swap');
+
+/* font-family: "Metrophobic",sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  font-family: "Metrophobic", sans-serif;
+  background-color: #ffffff;
+}
+
+.HomePage {
+  width: 100%;
+  display: flex;
+  height: 100vh;
+}
+
+.home_container {
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 20px;
+}
+
+.Aside {
+  width: 100%;
+  max-width: 130px;
+  min-height: 580px;
+}
+
+.dash_or_user {
+  width: 100%;
+}
+
+/* -------> DashBoard Data ------> */
+.main_dashboard_container {
+  width: 100%;
+  height: 100%;
+}
+
+.Dashboard_container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  height: 100%;
+}
+
+.DetailCard {
+  width: 100%;
+}
+
+.newUser_container {
+  width: 100%;
+  max-width: 282px;
+}
+
+.sales_container {
+  width: 100%;
+  min-height: 200px;
+}
+
+/* ------> LogOut Page ----->*/
+.second_row_Table {
+  width: 100%;
+}
+
+/* Login Detail */
+.login_para {
+  width: 100%;
+  height: 100%;
+}
+
+.login_form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.loginPage_container {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* --------> Popup_container ----------> */
+.Logout_PopUp {
+  background-color: #d9d9d979;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Popup_container {
+  background-color: #fff;
+  display: flex;
+  gap: 30px;
+  width: 535px;
+  height: 284px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid black;
+}
+
+.Logout_btn {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.Logout_Options button {
+  width: 146px;
+  height: 58px;
+  font-size: 19px;
+}
+
+/* ----------> Ads --------> */
+.Card_container {
+  margin-top: 12px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* --------> Terms and Privacy Policy ----------> */
+.terms_container {
+  padding: 10px;
+  gap: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.terms_polices {
+  display: flex;
+  justify-content: end;
+}
+
+.terms_polices .SearchBar {
+  max-width: 500px;
+}
+
+.terms_polices .SearchBar p {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 600;
+  margin-inline: 5px;
+}
+
+.terms_para {
+  margin: 0 auto;
+  line-height: 28px;
+}
+
+/* ---------> View Detail Section ------> */
+.detail_container {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.info {
+  width: 100%;
+  max-width: 734px;
+}
+
+.detail_Info {
+  gap: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Car_table {
+  width: 100%;
+  border: 1px solid #0000003e;
+  border-radius: 12px;
+}
+
+/* --------> Responsive -------> */
+@media (max-width: 768px) {
+  .HomePage {
+    min-height: 100%;
+  }
+
+  .Aside {
+    min-height: 100%;
+    max-width: 100px;
+  }
+
+  .info {
+    max-width: 468px;
+  }
+
+  .sales_container {
+    min-height: 100px;
+  }
+
+  .loginPage_container {
+    flex-direction: column;
+  }
+
+  .login_form {
+    height: 50vh;
+  }
+
+  .terms_para {
+    line-height: 17px;
+    font-size: 12px;
+  }
+
+  .newUser_container {
+    max-width: 100%;
+  }
+
+  .HomePage {
+    width: 100%;
+    height: 100vh;
+  }
+
+  .NewUserRow {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 468px) {
+  .Aside {
+    max-width: 100%;
+    padding: 5px;
+  }
+
+  .home_container {
+    height: 100vh;
+  }
+
+  .Dashboard_container {
+    justify-content: space-between;
+  }
+
+  .NewUserRow {
+    height: 250px;
+    justify-content: space-evenly;
+  }
+
+  .Graphical_view {
+    height: 100%;
+  }
+}

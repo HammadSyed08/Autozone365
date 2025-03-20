@@ -1,0 +1,27 @@
+/* ---------> Sales ----------> */
+.Sales {
+  min-height:200px ;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.Sales .row_one{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Btn_row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+@media (max-width: 768px) {
+  .Sales{
+    min-height: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+  }
+}
